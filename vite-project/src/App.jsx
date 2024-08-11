@@ -6,7 +6,8 @@ import OCRReaderV3 from "./OCRReaderV3.jsx"
 export default function App() {
   return (
     <main>
-      Swarnim Arya
+      <h1> Convert Your Image Into Text</h1>
+     <hr></hr>
       <div style={
       {
         width:"100%",
@@ -14,10 +15,10 @@ export default function App() {
         color:"black",
         padding:"2px",
         margin:"2px",
-        backgroundColor:"black"
       }
       }/>
         <OCRReader />
+        <hr></hr>
       
         <div style={
           {
@@ -26,10 +27,11 @@ export default function App() {
             color:"black",
             padding:"2px",
             margin:"2px",
-            backgroundColor:"blue"
           }
           }/>
             <OCRReaderV2 />
+
+            <hr></hr>
       <div style={
         {
           width:"100%",
@@ -37,7 +39,6 @@ export default function App() {
           color:"black",
           padding:"2px",
           margin:"2px",
-          backgroundColor:"yellow"
         }
         }/>
           <OCRReaderV3 />

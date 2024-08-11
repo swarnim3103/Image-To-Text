@@ -22,6 +22,7 @@ const OCRReader = () => {
 
   return (
     <div>
+      <p>OCRReaderV1</p>
       <ImageUpload onImageChange={handleImageChange} />
       {image && (
         <div>
@@ -36,7 +37,7 @@ const OCRReader = () => {
       )}
       <div>
         <h3>Extracted Text:</h3>
-        <h1>{text}</h1>
+        <p>{text}</p>
       </div>
     </div>
   );

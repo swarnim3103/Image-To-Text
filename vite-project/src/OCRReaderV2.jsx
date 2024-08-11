@@ -5,7 +5,7 @@ import * as tf from "@tensorflow/tfjs";
 
 const OCRReaderV2 = () => {
   const [image, setImage] = useState(null);
-  const [text, setText] = useState("");
+  const [text, setText] = useState("--------------");
   const [grayscaleImage, setGrayscaleImage] = useState(null);
 
   const handleImageChange = (imageData) => {
